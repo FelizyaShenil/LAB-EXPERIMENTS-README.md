@@ -189,9 +189,13 @@ void loop() {
 1. Connect the I2C LCD module to ESP32 as per the circuit (SDA → GPIO21, SCL → GPIO22).
 2. Open Arduino IDE, install the `LiquidCrystal_I2C` library.
 3. Upload the code and observe the LCD display.
-4. Line 1 should show **"JECC IoT Lab"** and Line 2 should show a live count incrementing every second.
+4. Observe Output:Line 1 should display "Hello, World!" and Line 2 should display "ESP32 Ready"
 5. If the display does not show text, adjust the contrast potentiometer on the I2C module.
 
-**Result:** The 16×2 LCD displays "JECC IoT Lab" on Line 1 and a live incrementing counter on Line 2, confirming successful I2C communication between ESP32 and the LCD module.
+<img width="960" height="780" alt="image" src="https://github.com/user-attachments/assets/6668e5ec-17f2-4382-9898-f9931a3ed5de" />
+
+
+
+**Result:** The 16×2 LCD displays successfully displays "Hello, World!" on Line 1 and "ESP32 Ready" on Line 2, confirming that I2C communication between the ESP32 and the LCD module is working properly.
 
 ---

@@ -255,7 +255,8 @@ finally:
 4. Type the code and save (Ctrl+X → Y → Enter).
 5. Run the program: `python3 led_blink.py`
 6. Observe the LED blinking. Press **Ctrl+C** to stop.
-<img width="797" height="614" alt="image" src="https://github.com/user-attachments/assets/0b9514cd-fb07-497a-9c47-8eb8c06207b6" />
+<img width="778" height="617" alt="image" src="https://github.com/user-attachments/assets/4b5043fd-6ab3-482a-a196-2c5e315b9fe5" />
+
 
 
 **Result:** The LED blinks continuously at 1 Hz (500 ms ON, 500 ms OFF), confirming successful GPIO output control using Python on the Raspberry Pi.
